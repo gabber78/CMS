@@ -40,15 +40,16 @@
 
 
 
-<!--                <li>
-                    <a href="#">About</a>
+               <li>
+                    <a href="admin">Admin</a>
                 </li>
-                <li>
-                    <a href="#">Services</a>
-                </li>
-                <li>
-                    <a href="#">Contact</a>
-                </li> -->
+
+<!--                <li>-->
+<!--                    <a href="#">Services</a>-->
+<!--                </li>-->
+<!--                <li>-->
+<!--                    <a href="#">Contact</a>-->
+<!--                </li>-->
 
             </ul>
         </div>
