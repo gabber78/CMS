@@ -1,6 +1,7 @@
 <?php
- include "includes/header.php";
+include "includes/header.php";
 include "includes/db.php";
+//include "includes/search.php";
 
 
 
@@ -18,7 +19,7 @@ include "includes/db.php";
             <!-- Blog Entries Column -->
             <div class="col-md-8">
                 <?php
-                $query = "SELECT * FROM posts";
+                    $query = "SELECT * FROM posts";
 
                     $query_all_posts_query = mysqli_query($connection, $query);
 
@@ -29,7 +30,7 @@ include "includes/db.php";
                         $post_image      = $row['post_image'];
                         $post_content    = $row['post_content'];
 
-                     ?>
+                ?>
 
 
                         <h1 class="page-header">
@@ -56,8 +57,7 @@ include "includes/db.php";
 
 
 
-
-                        <?php
+                <?php
 
                     }
 
@@ -72,11 +72,7 @@ include "includes/db.php";
                 </div>
 
                 <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
+                <?php include "includes/widget.php"; ?>
             </div>
 
         </div>
