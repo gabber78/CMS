@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/navigation.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,13 @@
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="categories: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
         <item name="posts: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
@@ -59,6 +62,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="hiddenUrls">
+      <set>
+        <option value="https://github.com/gabber78/CMS" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="1XCmgnrXxAWRqP3Tq0KwpLfnW8f" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -110,7 +120,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580558564806</updated>
-      <workItem from="1580558566260" duration="25282000" />
+      <workItem from="1580558566260" duration="29311000" />
     </task>
     <servers />
   </component>
@@ -122,6 +132,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="352" key="#Inspections/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580658022486" />
+    <state x="2792" y="352" key="#Notifications" timestamp="1580815554547">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2792" y="352" key="#Notifications/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580815554547" />
     <state x="2792" y="352" key="#SQL_Dialects" timestamp="1580659577880">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
