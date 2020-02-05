@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/scripts.js" afterDir="false" />
-    </list>
+    <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,27 +44,19 @@
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="categories: table" type="dbc44a63:MariaImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="posts: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="CMS" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="master" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -93,15 +78,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/includes" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
@@ -112,7 +94,12 @@
       <list>
         <serviceView>
           <treeState>
-            <expand />
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:cms@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
             <select />
           </treeState>
         </serviceView>
@@ -130,14 +117,6 @@
       <option name="presentableId" value="Default" />
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
-      <workItem from="1581272838249" duration="13056000" />
-      <workItem from="1581622639013" duration="21796000" />
-      <workItem from="1586960784866" duration="1204000" />
-      <workItem from="1588603016670" duration="24194000" />
-      <workItem from="1588940675059" duration="5789000" />
-      <workItem from="1588948290555" duration="37056000" />
-      <workItem from="1590138288698" duration="7489000" />
-      <workItem from="1590829557836" duration="14673000" />
     </task>
     <servers />
   </component>
@@ -145,53 +124,42 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2792" y="352" key="#Notifications" timestamp="1588694187184">
+    <state x="2792" y="352" key="#Inspections" timestamp="1580658022486">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2792" y="352" key="#Notifications/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588694187184" />
-    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588692576986">
+    <state x="2792" y="352" key="#Inspections/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580658022486" />
+    <state x="2792" y="352" key="#Notifications" timestamp="1580815554547">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588692576986" />
-    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588948192718">
+    <state x="2792" y="352" key="#Notifications/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580815554547" />
+    <state x="2792" y="352" key="#SQL_Dialects" timestamp="1580659577880">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588948192718" />
-    <state x="3938" y="262" width="1126" height="850" key="DiffContextDialog" timestamp="1590950294193">
+    <state x="2792" y="352" key="#SQL_Dialects/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580659577880" />
+    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580658161143">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="3938" y="262" width="1126" height="850" key="DiffContextDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590950294193" />
-    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1588861826913">
+    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580658161143" />
+    <state x="2980" y="449" key="FileChooserDialogImpl" timestamp="1580659396146">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588861826913" />
-    <state x="2660" y="263" width="1126" height="850" key="ShowDiffWithBranchDialog" timestamp="1590950294193">
+    <state x="2980" y="449" key="FileChooserDialogImpl/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580659396146" />
+    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1580900178079">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2660" y="263" width="1126" height="850" key="ShowDiffWithBranchDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590950294193" />
-    <state width="498" height="446" key="SwitcherDM" timestamp="1590949964243">
+    <state x="3017" y="446" key="NewPhpFileDialog/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580559533729" />
+    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580900178079" />
+    <state x="2701" y="336" key="SettingsEditor" timestamp="1580580007176">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state width="498" height="446" key="SwitcherDM/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590949964243" />
-    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1588608639694">
+    <state x="2701" y="336" key="SettingsEditor/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580580007176" />
+    <state x="2792" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580574108426">
+      <screen x="2560" y="0" width="2560" height="1050" />
+    </state>
+    <state x="2792" y="256" key="Vcs.Push.Dialog.v2/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580574108426" />
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1580727927208">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588608639694" />
-    <state x="2660" y="263" width="1126" height="850" key="com.intellij.dvcs.ui.CompareBranchesDialog" timestamp="1590950294193">
-      <screen x="2560" y="162" width="2560" height="1050" />
-    </state>
-    <state x="2660" y="263" width="1126" height="850" key="com.intellij.dvcs.ui.CompareBranchesDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590950294193" />
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1590829558879">
-      <screen x="2560" y="162" width="2560" height="1050" />
-    </state>
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590829558879" />
-    <state x="2902" y="406" width="642" height="564" key="find.popup" timestamp="1590952329615">
-      <screen x="2560" y="162" width="2560" height="1050" />
-    </state>
-    <state x="2902" y="406" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590952329615" />
-    <state x="2886" y="394" width="672" height="678" key="search.everywhere.popup" timestamp="1590952024564">
-      <screen x="2560" y="162" width="2560" height="1050" />
-    </state>
-    <state x="2886" y="394" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590952024564" />
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580727927208" />
   </component>
 </project>
