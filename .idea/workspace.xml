@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/functions.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/categories.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/categories.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,13 +45,6 @@
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="categories: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
@@ -120,6 +113,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
+      <workItem from="1581272838249" duration="5388000" />
     </task>
     <servers />
   </component>
@@ -139,19 +133,31 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="352" key="#SQL_Dialects/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580659577880" />
+    <state x="2792" y="346" key="#SQL_Resolution_Scopes" timestamp="1581360130921">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2792" y="346" key="#SQL_Resolution_Scopes/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581360130921" />
     <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580658161143">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580658161143" />
+    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581272752668">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581272752668" />
     <state x="2980" y="449" key="FileChooserDialogImpl" timestamp="1580659396146">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2980" y="449" key="FileChooserDialogImpl/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580659396146" />
-    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1580902620024">
+    <state width="209" height="539" key="HiddenNamespacesPopup" timestamp="1581358670127">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state width="209" height="539" key="HiddenNamespacesPopup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581358670127" />
+    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1581355981514">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="3017" y="446" key="NewPhpFileDialog/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580559533729" />
-    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580902620024" />
+    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581355981514" />
     <state x="2701" y="336" key="SettingsEditor" timestamp="1580580007176">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -160,9 +166,21 @@
       <screen x="2560" y="0" width="2560" height="1050" />
     </state>
     <state x="2792" y="256" key="Vcs.Push.Dialog.v2/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580574108426" />
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1580985985092">
+    <state x="2954" y="442" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1581360151070">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580985985092" />
+    <state x="2954" y="442" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581360151070" />
+    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581359942304">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581359942304" />
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1581272854392">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581272854392" />
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1581357744414">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581357744414" />
   </component>
 </project>
