@@ -20,6 +20,47 @@
             $post_date = $row['post_date'];
         }
 
+        if (isset($_POST['update_post'])){
+
+            $post_author = mysqli_real_escape_string($connection, $_POST['post_author']);
+            $post_title = $_POST['post_title'];
+            $post_category_id = $_POST['post_category'];
+            $post_status = $_POST['post_status'];
+            $post_image = $_FILES['image']['name'];
+            $post_image_temp = $_FILES['image']['tmp_name'];
+            $post_content = $_POST['post_content'];
+            $post_tag = $_POST['post_tag'];
+
+            move_uploaded_file($post_image_temp, "../images/$post_image");
+
+            /*$query = "UPDATE posts SET ";
+            $query .= "post_title = '{$post_title}', ";
+            $query .= "post_category_id = '{$post_category_id}', ";
+            $query .= "post_date = now(), ";
+            $query .= "post_author = '{$post_author}', ";
+            $query .= "post_status = '{$post_status}', ";
+            $query .= "post_tag = '{$post_tag}', ";
+            $query .= "post_content = '{$post_content}', ";
+            $query .= "post_image = '{$post_image}' ";
+            $query .= "WHERE post_id = {$the_post_id} "; */
+
+            $query = "UPDATE posts SET post_title = '{$post_title}', 
+                 post_category_id = '{$post_category_id}',
+                 post_date = now(), 
+                 post_author = '{$post_author}', 
+                 post_status = '{$post_status}', 
+                 post_tag = '{$post_tag}', 
+                 post_content = '{$post_content}',
+                 post_image = '{$post_image}' 
+            WHERE post_id = {$the_post_id}";
+
+            $update_post = mysqli_query($connection, $query);
+
+            confirmQuery($update_post);
+
+
+        }
+
 ?>
 
 <form action="" method="post" enctype="multipart/form-data">
@@ -30,6 +71,7 @@
 
     <div class="form-group">
         <select name="post_category" id="">
+
             <?php
                 $query = "SELECT * FROM categories";
                 $select_categories = mysqli_query($connection, $query);
@@ -75,7 +117,7 @@
     </div>
 
     <div>
-        <input class="btn btn-primary" type="Submit" name="create_post" value="Publish Post">
+        <input class="btn btn-primary" type="Submit" name="update_post" value="Update Post">
     </div>
 
 

@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +54,11 @@
     <select />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GithubPullRequestsUISettings">
@@ -153,6 +155,14 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state width="209" height="539" key="HiddenNamespacesPopup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581358670127" />
+    <state x="2680" y="399" key="MergeDialog" timestamp="1581452593775">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2680" y="399" key="MergeDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452593775" />
+    <state x="2902" y="395" key="MultipleFileMergeDialog" timestamp="1581452593788">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2902" y="395" key="MultipleFileMergeDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452593788" />
     <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1581439848880">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -166,10 +176,11 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state width="200" height="523" key="SqlResolveConfigurable/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581450118031" />
-    <state x="2792" y="256" key="Vcs.Push.Dialog.v2" timestamp="1580574108426">
-      <screen x="2560" y="0" width="2560" height="1050" />
+    <state x="2792" y="418" key="Vcs.Push.Dialog.v2" timestamp="1581452764911">
+      <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="256" key="Vcs.Push.Dialog.v2/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580574108426" />
+    <state x="2792" y="418" key="Vcs.Push.Dialog.v2/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452764911" />
     <state x="2954" y="442" key="com.intellij.database.run.ParametersPanel.Standalone" timestamp="1581360151070">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -182,6 +193,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581272854392" />
+    <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581452575492">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452575492" />
     <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1581357744414">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
