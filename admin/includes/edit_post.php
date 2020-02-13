@@ -22,7 +22,7 @@
 
         if (isset($_POST['update_post'])){
 
-            $post_author = mysqli_real_escape_string($connection, $_POST['post_author']);
+            $post_author = $_POST['post_author'];
             $post_title = $_POST['post_title'];
             $post_category_id = $_POST['post_category'];
             $post_status = $_POST['post_status'];
@@ -33,7 +33,19 @@
 
             move_uploaded_file($post_image_temp, "../images/$post_image");
 
-            /*$query = "UPDATE posts SET ";
+            if(empty($post_image)) {
+
+                $query = "SELECT * FROM posts WHERE post_id = $the_post_id ";
+                $select_image = mysqli_query($connection,$query);
+
+                while($row = mysqli_fetch_array($select_image)) {
+
+                    $post_image = $row['post_image'];
+
+                }
+            }
+
+            /*$query = "UPDATE posts SET";
             $query .= "post_title = '{$post_title}', ";
             $query .= "post_category_id = '{$post_category_id}', ";
             $query .= "post_date = now(), ";
@@ -42,17 +54,18 @@
             $query .= "post_tag = '{$post_tag}', ";
             $query .= "post_content = '{$post_content}', ";
             $query .= "post_image = '{$post_image}' ";
-            $query .= "WHERE post_id = {$the_post_id} "; */
+            $query .= "WHERE post_id = {$the_post_id}"; */
 
-            $query = "UPDATE posts SET post_title = '{$post_title}', 
-                 post_category_id = '{$post_category_id}',
-                 post_date = now(), 
-                 post_author = '{$post_author}', 
-                 post_status = '{$post_status}', 
-                 post_tag = '{$post_tag}', 
-                 post_content = '{$post_content}',
-                 post_image = '{$post_image}' 
-            WHERE post_id = {$the_post_id}";
+           $query = "UPDATE posts SET post_title = '{$post_title}', 
+                 post_category_id   = '{$post_category_id}', 
+                 post_date          = now(), 
+                 post_author        = '{$post_author}', 
+                 post_status        = '{$post_status}', 
+                 post_tag           = '{$post_tag}', 
+                 post_content       = '{$post_content}', 
+                 post_image         = '{$post_image}' 
+            WHERE post_id           = {$the_post_id} ";
+
 
             $update_post = mysqli_query($connection, $query);
 
@@ -66,7 +79,7 @@
 <form action="" method="post" enctype="multipart/form-data">
     <div class="form-group">
         <label for="title">Post Title</label>
-        <input value="<?= $post_title; ?>" type="text" class="form-control" name="title">
+        <input value="<?= $post_title; ?>" type="text" class="form-control" name="post_title">
     </div>
 
     <div class="form-group">
@@ -94,7 +107,7 @@
 
     <div class="form-group">
         <label for="post_author">Post Author</label>
-        <input value="<?php echo $post_author; ?>" type="text" class="form-control" name="author">
+        <input value="<?php echo $post_author; ?>" type="text" class="form-control" name="post_author">
     </div>
 
     <div class="form-group">
@@ -103,12 +116,13 @@
     </div>
 
     <div class="form-group">
+        <input type="file" name="image">
         <img width="200" src="../images/<?= $post_image;?>" alt="">
     </div>
 
     <div class="form-group">
-        <label for="post_tags">Post Tags</label>
-        <input value="<?= $post_tag; ?>" type="text" class="form-control" name="post_tags">
+        <label for="post_tag">Post Tags</label>
+        <input value="<?= $post_tag; ?>" type="text" class="form-control" name="post_tag">
     </div>
 
     <div class="form-group">
