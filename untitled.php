@@ -1,4 +1,4 @@
-<?php
+
 <!-- Blog Comments -->
 
                 <!-- Comments Form -->
