@@ -34,7 +34,16 @@
         echo "<td>$post_id</td>";
         echo "<td>$post_author</td>";
         echo "<td>$post_title</td>";
-        echo "<td>$post_category_id</td>";
+
+            $query = "SELECT * FROM categories WHERE cat_id = {$post_category_id}";
+            $select_categories_id = mysqli_query($connection, $query);
+
+            while ($row = mysqli_fetch_assoc($select_categories_id)) {
+                $cat_id = $row['cat_id'];
+                $cat_title = $row['cat_title'];
+
+                echo "<td>{$cat_title}</td>";
+            }
         echo "<td>$post_status</td>";
         echo "<td><img class='img-thumbnail' width=200 src='../images/$post_image' alt='post images'></td>";
         echo "<td>$post_tag</td>";
@@ -49,17 +58,6 @@
 
 
     ?>
-
-
-    <td>10</td>
-    <td>Gabor</td>
-    <td>Bootstrap framework</td>
-    <td>Bootstrap</td>
-    <td>Status</td>
-    <td>Image</td>
-    <td>Tags</td>
-    <td>Comments</td>
-    <td>Date</td>
     </tbody>
 </table>
 
