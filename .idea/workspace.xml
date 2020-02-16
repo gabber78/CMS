@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/view_all_comments.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled.php" beforeDir="false" afterPath="$PROJECT_DIR$/untitled.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,12 +89,13 @@
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -117,7 +122,7 @@
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
       <workItem from="1581272838249" duration="13056000" />
-      <workItem from="1581622639013" duration="5195000" />
+      <workItem from="1581622639013" duration="7528000" />
     </task>
     <servers />
   </component>
@@ -165,11 +170,11 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2902" y="395" key="MultipleFileMergeDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452593788" />
-    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1581701254954">
+    <state x="3017" y="608" key="NewPhpFileDialog" timestamp="1581874762419">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="3017" y="446" key="NewPhpFileDialog/0.0.1280.690/2560.0.2560.1050@2560.0.2560.1050" timestamp="1580559533729" />
-    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581701254954" />
+    <state x="3017" y="608" key="NewPhpFileDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581874762419" />
     <state x="2701" y="336" key="SettingsEditor" timestamp="1580580007176">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
