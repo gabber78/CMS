@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/admin/comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/includes/view_all_comments.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,7 +117,7 @@
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
       <workItem from="1581272838249" duration="13056000" />
-      <workItem from="1581622639013" duration="7528000" />
+      <workItem from="1581622639013" duration="13750000" />
     </task>
     <servers />
   </component>
@@ -146,10 +141,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="346" key="#SQL_Resolution_Scopes/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581450119196" />
-    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580658161143">
+    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1581962631191">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1580658161143" />
+    <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581962631191" />
     <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581622484016">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -208,9 +203,9 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452575492" />
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1581357744414">
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1581964292491">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581357744414" />
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581964292491" />
   </component>
 </project>
