@@ -2,9 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/includes/add_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/includes/view_all_users.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/users.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,15 +51,11 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="posts: table" type="dbc44a63:MariaImplModel$Table" />
-      </path>
     </expand>
     <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="CMS" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -81,17 +84,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/includes" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -118,7 +122,9 @@
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
       <workItem from="1581272838249" duration="13056000" />
-      <workItem from="1581622639013" duration="17556000" />
+      <workItem from="1581622639013" duration="21796000" />
+      <workItem from="1586960784866" duration="1204000" />
+      <workItem from="1588603016670" duration="4760000" />
     </task>
     <servers />
   </component>
@@ -192,21 +198,21 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2954" y="442" key="com.intellij.database.run.ParametersPanel.Standalone/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581360151070" />
-    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1581450016299">
+    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1588608639694">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581450016299" />
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1581622796650">
+    <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588608639694" />
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1586960784037">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581622796650" />
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1586960784037" />
     <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581452575492">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581452575492" />
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1581964292491">
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup" timestamp="1582055024808">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581964292491" />
+    <state x="2863" y="399" width="672" height="678" key="search.everywhere.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1582055024808" />
   </component>
 </project>
