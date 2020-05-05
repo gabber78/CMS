@@ -67,6 +67,9 @@
                     <li>
                         <a href="users.php?source=add_user">Add User</a>
                     </li>
+                    <li>
+                        <a href="users.php?source=edit_user">Edit User</a>
+                    </li>
                 </ul>
             </li>
             <li>

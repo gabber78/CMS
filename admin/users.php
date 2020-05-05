@@ -20,7 +20,7 @@
 
                     <h1 class="page-header">
                         Welcome to Admin
-                        <small>Author</small>
+                        <small></small>
                     </h1>
                         <?php
                             if (isset($_GET['source'])){
