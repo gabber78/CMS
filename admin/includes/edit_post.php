@@ -46,7 +46,8 @@
                 }
             }
 
-           $query = "UPDATE posts SET post_title = '{$post_title}', 
+           $query = "UPDATE posts SET 
+                 post_title         = '{$post_title}', 
                  post_category_id   = '{$post_category_id}', 
                  post_date          = now(), 
                  post_author        = '{$post_author}', 
