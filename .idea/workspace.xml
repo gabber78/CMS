@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/sidebar.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/sidebar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +124,9 @@
       <workItem from="1581272838249" duration="13056000" />
       <workItem from="1581622639013" duration="21796000" />
       <workItem from="1586960784866" duration="1204000" />
-      <workItem from="1588603016670" duration="23702000" />
+      <workItem from="1588603016670" duration="24194000" />
+      <workItem from="1588940675059" duration="5789000" />
+      <workItem from="1588948290555" duration="4978000" />
     </task>
     <servers />
   </component>
@@ -152,10 +154,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2792" y="352" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588692576986" />
-    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1581622484016">
+    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1588948192718">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1581622484016" />
+    <state x="2880" y="424" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588948192718" />
     <state x="2980" y="449" key="FileChooserDialogImpl" timestamp="1580659396146">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -202,10 +204,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2909" y="162" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588608639694" />
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1586960784037">
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog" timestamp="1588948293967">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1586960784037" />
+    <state x="2871" y="512" key="com.intellij.ide.util.TipDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1588948293967" />
     <state x="2964" y="319" key="git4idea.branch.GitSmartOperationDialog" timestamp="1581452575492">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
