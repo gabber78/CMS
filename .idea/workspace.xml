@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/admin/profile.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/includes/logout.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,18 +86,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/includes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -124,7 +128,7 @@
       <workItem from="1586960784866" duration="1204000" />
       <workItem from="1588603016670" duration="24194000" />
       <workItem from="1588940675059" duration="5789000" />
-      <workItem from="1588948290555" duration="7132000" />
+      <workItem from="1588948290555" duration="14454000" />
     </task>
     <servers />
   </component>

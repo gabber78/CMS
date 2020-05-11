@@ -41,7 +41,7 @@ if (isset($_POST['login'])){
 //    header("Location: ../index.php");
 //}
 
-    if($username == $db_username && $password == $db_user_password){   //username and password are correct
+    if($username === $db_username && $password === $db_user_password){   //username and password are correct
         $_SESSION['username'] = $db_username;
         $_SESSION['firstname'] = $db_user_firstname;
         $_SESSION['lastname'] = $db_user_lastname;
