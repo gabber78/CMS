@@ -102,11 +102,17 @@
         <input value="<?php echo $post_author; ?>" type="text" class="form-control" name="post_author">
     </div>
 
-    <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input value="<?= $post_status; ?>" type="text" class="form-control" name="post_status">
-    </div>
+<!--    <div class="form-group">-->
+<!--        <label for="post_status">Post Status</label>-->
+<!--        <input value="--><?//= $post_status; ?><!--" type="text" class="form-control" name="post_status">-->
+<!--    </div>-->
 
+    <div class="form-group">
+        <select name="post_status" id="">
+            <option value=""><?= $post_status ?></option>
+
+        </select>
+    </div>
     <div class="form-group">
         <input type="file" name="image">
         <img width="200" src="../images/<?= $post_image;?>" alt="">

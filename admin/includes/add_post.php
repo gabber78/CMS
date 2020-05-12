@@ -23,6 +23,8 @@
 
         confirmQuery($create_post_query);
 
+        echo "Post created: " . " " . "<a href='posts.php'>View Post</a> " . '<br>';
+
     }
 ?>
 
@@ -64,8 +66,13 @@
     </div>
 
     <div class="form-group">
-        <label for="post_status">Post Status</label>
-        <input type="text" class="form-control" name="post_status">
+        <label for="post_status">Post Status</label><br>
+        <select name="post_status" id="">
+            <option value="">Select Options</option>
+            <option value="approved">Approved</option>
+            <option value="draft">Draft</option>
+
+        </select>
     </div>
 
     <div class="form-group">
