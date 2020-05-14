@@ -87,8 +87,16 @@
 
     <div class="form-group">
         <label for="post_content">Post Content</label>
-        <textarea class="form-control" name="post_content" id="" cols="30" rows="10"></textarea>
+        <textarea class="form-control" name="post_content" id="body" cols="30" rows="10"></textarea>
     </div>
+
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#body' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
 
     <div>
         <input class="btn btn-primary" type="Submit" name="create_post" value="Publish Post">

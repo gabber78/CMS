@@ -109,7 +109,18 @@
 
     <div class="form-group">
         <select name="post_status" id="">
-            <option value=""><?= $post_status ?></option>
+            <option value="<?= $post_status ?>"><?= $post_status ?></option>
+
+            <?php
+                if ($post_status == 'published') {
+                    echo "<option value='draft'>Draft</option>";
+                } else {
+                    echo "<option value='published'>Published</option>";
+                }
+
+
+
+            ?>
 
         </select>
     </div>
