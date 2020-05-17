@@ -61,7 +61,8 @@
             $update_post = mysqli_query($connection, $query);
 
             confirmQuery($update_post);
-            header("Location: posts.php");
+            echo "<p>Post Updated <a href='../post.php?p_id={$the_post_id}'>View Post</a></p>";
+            //header ("Location: posts.php?p_id={$the_post_id}"); '
 
 
         }
