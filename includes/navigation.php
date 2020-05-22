@@ -33,20 +33,23 @@
 
                         echo "<li><a href='#'> {$cat_title}</a></li>";
                     }
-
-
                 ?>
-
-
-
 
                <li>
                     <a href="admin">Admin</a>
                 </li>
 
-<!--                <li>-->
-<!--                    <a href="#">Services</a>-->
-<!--                </li>-->
+                <?php
+                if (session_status() == PHP_SESSION_NONE) session_start(); //check if session started or you can add session_start to admin/header.php
+                    if (isset($_SESSION['user_role'])) {
+                        if (isset($_GET['p_id'])) {
+                            $the_post_id = $_GET['p_id'];
+                            echo "<li><a href='admin/posts.php?source=edit_post&p_id={$the_post_id}'>Edit Post</a></li>";
+                        }
+                    }
+
+                ?>
+
 <!--                <li>-->
 <!--                    <a href="#">Contact</a>-->
 <!--                </li>-->
