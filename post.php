@@ -159,4 +159,5 @@ include "includes/db.php";
 <?php
 
 include 'includes/footer.php';
+//include 'includes/admin_footer.php';
 ?>
