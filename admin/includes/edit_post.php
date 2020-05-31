@@ -140,6 +140,14 @@
         <textarea  class="form-control" name="post_content" id="" cols="30" rows="10"><?= $post_content; ?></textarea>
     </div>
 
+    <script>
+        ClassicEditor
+            .create( document.querySelector( '#body' ) )
+            .catch( error => {
+                console.error( error );
+            } );
+    </script>
+
     <div>
         <input class="btn btn-primary" type="Submit" name="update_post" value="Update Post">
     </div>

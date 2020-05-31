@@ -1,11 +1,17 @@
-$(document).ready(function(){
+// $(document).ready(function(ClassicEditor){
+//
+//     //alert('hello');
+//
+//     // //CK editor
+//     ClassicEditor
+//         .create( document.querySelector( '#body' ) )
+//         .catch( error => {
+//             console.error( error );
+//         } );
+//
+// });
 
-    // //CK editor
-    ClassicEditor
-        .create( document.querySelector( '#body' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+$(document).ready(function () {
 
 
     $('#selectAllBoxes').click(function (event) {
@@ -19,8 +25,8 @@ $(document).ready(function(){
             })
         }
     });
-
 });
+
 
 
 

@@ -22,8 +22,12 @@
         $create_post_query = mysqli_query($connection, $query);
 
         confirmQuery($create_post_query);
+        //        echo "Post created: " . " " . "<a href='posts.php'>View Post</a> " . '<br>';
 
-        echo "Post created: " . " " . "<a href='posts.php'>View Post</a> " . '<br>';
+        //instantiate $the_post_id variable in this file
+        $the_post_id =  mysqli_insert_id($connection);
+        echo "<p class='bg-success'>Post Creted <a href='../post.php?p_id={$the_post_id}'>View Post </a> <b>or</b> <a href='posts.php'>Edit More Posts</a> </p>";
+
 
     }
 ?>
@@ -66,10 +70,10 @@
     </div>
 
     <div class="form-group">
-        <label for="post_status">Post Status</label><br>
+
         <select name="post_status" id="">
-            <option value="">Select Options</option>
-            <option value="approved">Approved</option>
+            <option value="">Post Status</option>
+            <option value="published">Published</option>
             <option value="draft">Draft</option>
 
         </select>
