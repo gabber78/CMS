@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,6 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
+      <workItem from="1591051986558" duration="931000" />
     </task>
     <servers />
   </component>
@@ -133,6 +130,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2815" y="346" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590968392359" />
+    <state x="3003" y="443" key="FileChooserDialogImpl" timestamp="1591043313751">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="3003" y="443" key="FileChooserDialogImpl/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591043313751" />
     <state width="865" height="262" key="GridCell.Tab.0.bottom" timestamp="1590969303153">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>

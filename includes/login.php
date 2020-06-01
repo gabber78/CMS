@@ -27,19 +27,8 @@ if (isset($_POST['login'])){
 
      }
 
-// * old version not working*
-//if($username !== $db_username && $password !== $db_user_password) {
-//    header("Location: ../index.php");
-//
-//}else if ($username == $db_username && $password == $db_user_password){
-//
-////    var_dump($db_username);
-////    var_dump($db_user_password);
-////    exit;
-//    header("Location ../admin");
-//}else {
-//    header("Location: ../index.php");
-//}
+    //decrypt password for auth
+    $password = crypt($password, $db_user_password);
 
     if($username === $db_username && $password === $db_user_password){   //username and password are correct
         $_SESSION['username'] = $db_username;
