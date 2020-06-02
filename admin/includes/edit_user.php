@@ -27,19 +27,15 @@ if (isset($_POST['edit_user'])) {
     $user_password = $_POST['user_password'];
 
 
-//        $post_image = $_FILES['image']['name'];
-//        $post_image_temp = $_FILES['image']['tmp_name'];
-//        $post_date = date('d-m-y');
+    $query = "SELECT randSalt FROM users";
+    $select_randSalt_query = mysqli_query($connection, $query);
+    if (!$select_randSalt_query){
+        die("Query failed" . mysqli_error($connection));
+    }
 
-
-//        move_uploaded_file($post_image_temp, "../images/$post_image");
-
-//    $query = "INSERT INTO users(user_firstname, user_lastname, user_role, username, user_email, user_password)
-//              VALUES ('{$user_firstname}', '{$user_lastname}', '{$user_role}', '{$username}', '{$user_email}', '{$user_password}')";
-//
-//    $create_user_query = mysqli_query($connection, $query);
-//
-//    confirmQuery($create_user_query);
+    $row = mysqli_fetch_array($select_randSalt_query);
+    $salt = $row['randSalt'];
+    $hashed_password = crypt($user_password, $salt);
 
     $query = "UPDATE users SET 
                  user_firstname         = '{$user_firstname}', 
@@ -47,7 +43,7 @@ if (isset($_POST['edit_user'])) {
                  user_role              = '{$user_role}', 
                  username               = '{$username}', 
                  user_email             = '{$user_email}', 
-                 user_password          = '{$user_password}' 
+                 user_password          = '{$hashed_password}' 
            WHERE user_id                = {$the_user_id} ";
 
     $edit_user_query = mysqli_query($connection, $query);
@@ -74,7 +70,7 @@ if (isset($_POST['edit_user'])) {
     <div class="form-group">
         <select name="user_role" id="">
 
-            <option value="subscriber"><?= $user_role ?></option>
+            <option value="<?= $user_role ?>"><?= $user_role ?></option>
             <?php
                 if ($user_role == 'admin'){
                     echo "<option value='subscriber'>subscriber</option>";
