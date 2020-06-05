@@ -5,11 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/author_posts.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/css/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/header-back.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/images/loader.gif" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/admin_header.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +76,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/images" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
@@ -81,6 +84,7 @@
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\images" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
     </key>
@@ -119,7 +123,7 @@
       <updated>1580558564806</updated>
       <workItem from="1580558566260" duration="31508000" />
       <workItem from="1591051986558" duration="2139000" />
-      <workItem from="1591129486723" duration="7819000" />
+      <workItem from="1591129486723" duration="11657000" />
     </task>
     <servers />
   </component>
