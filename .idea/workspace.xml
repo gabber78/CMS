@@ -55,7 +55,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="develop_cms_old_login_system" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -171,6 +171,14 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state width="209" height="539" key="HiddenNamespacesPopup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590968255316" />
+    <state x="2697" y="393" key="MergeDialog" timestamp="1591657162548">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2697" y="393" key="MergeDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591657162548" />
+    <state x="2919" y="394" key="MultipleFileMergeDialog" timestamp="1591657162558">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2919" y="394" key="MultipleFileMergeDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591657162558" />
     <state x="2724" y="330" key="SettingsEditor" timestamp="1590969384104">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -179,6 +187,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2939" y="317" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590968184098" />
+    <state x="2981" y="318" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591657134108">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2981" y="318" key="git4idea.branch.GitSmartOperationDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591657134108" />
     <state x="2886" y="394" width="672" height="678" key="search.everywhere.popup" timestamp="1590969369449">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
