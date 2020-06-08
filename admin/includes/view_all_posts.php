@@ -144,7 +144,8 @@ if (isset($_POST['checkBoxArray'])){
         echo "<td>$post_tag</td>";
         echo "<td>$post_comment_count</td>";
         echo "<td>$post_date</td>";
-        echo "<td>$post_views_count</td>";
+        //reset view count
+        echo "<td><a href='posts.php?reset={$post_id}' title='Reset View Count'> $post_views_count</a></td>";
         echo "<td><a href='../post.php?p_id={$post_id}'>View Post</a></td>";
         echo "<td><a href='posts.php?source=edit_post&p_id={$post_id}'>Edit</a></td>";
         echo "<td><a onclick=\"javascript: return confirm('Are you sure you want to delete');\" href='posts.php?delete={$post_id}'>Delete</a></td>";
@@ -164,4 +165,13 @@ if (isset($_POST['checkBoxArray'])){
         header("Location: posts.php");
 
     }
+
+    //reset view count
+    if (isset($_GET['reset'])){
+        $the_post_id = $_GET['reset'];
+        $query = "UPDATE posts SET post_views_count = 0 WHERE post_id =" . mysqli_real_escape_string($connection, $_GET['reset']);
+        $reset_query = mysqli_query($connection, $query);
+        header("Location: posts.php");
+
+}
 ?>
