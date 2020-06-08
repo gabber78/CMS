@@ -1,8 +1,6 @@
 <?php
 include "includes/header.php";
 include "includes/db.php";
-//include "includes/search.php";
-
 ?>
 
     <!-- Navigation -->
