@@ -27,29 +27,35 @@ if (isset($_POST['edit_user'])) {
     $user_password = $_POST['user_password'];
 
 
-    $query = "SELECT randSalt FROM users";
-    $select_randSalt_query = mysqli_query($connection, $query);
-    if (!$select_randSalt_query){
-        die("Query failed" . mysqli_error($connection));
+    if (!empty($user_password)){
+        $query_password = "SELECT user_password FROM cms.users WHERE user_id = $the_user_id";
+        $get_user_query = mysqli_query($connection, $query_password);
+
+        confirmQuery($get_user_query);
+
+        $row = mysqli_fetch_array($get_user_query);
+        $db_user_password = $row['user_password'];
     }
 
-    $row = mysqli_fetch_array($select_randSalt_query);
-    $salt = $row['randSalt'];
-    $hashed_password = crypt($user_password, $salt);
+    if ($db_user_password != $user_password) {
+        $hashed_password = password_hash($user_password, PASSWORD_BCRYPT, array('cost' => 12));
+    }
+
 
     $query = "UPDATE users SET 
                  user_firstname         = '{$user_firstname}', 
                  user_lastname          = '{$user_lastname}', 
                  user_role              = '{$user_role}', 
                  username               = '{$username}', 
-                 user_email             = '{$user_email}', 
-                 user_password          = '{$hashed_password}' 
+                 user_email             = '{$user_email}',
+                 user_password          = '{$hashed_password}'
            WHERE user_id                = {$the_user_id} ";
 
-    $edit_user_query = mysqli_query($connection, $query);
 
+    $edit_user_query = mysqli_query($connection, $query);
     confirmQuery($edit_user_query);
 
+    echo "User Updated" . " <a href='users.php'>View Users?</a>";
     }
 ?>
 

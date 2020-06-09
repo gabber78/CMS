@@ -6,11 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/admin_navigation.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/admin_navigation.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/js/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/admin/js/scripts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +47,13 @@
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+        <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -143,6 +149,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2815" y="346" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590968392359" />
+    <state x="2830" y="195" key="CommitChangelistDialog2" timestamp="1591661079101">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2830" y="195" key="CommitChangelistDialog2/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591661079101" />
     <state x="2652" y="254" width="2376" height="866" maximized="true" key="DiffContextDialog" timestamp="1591138244352">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
@@ -187,6 +197,14 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="2939" y="317" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1590968184098" />
+    <state x="3019" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591661063853">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="3019" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591661063853" />
+    <state x="2896" y="405" width="642" height="564" key="find.popup" timestamp="1591662169634">
+      <screen x="2560" y="162" width="2560" height="1050" />
+    </state>
+    <state x="2896" y="405" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591662169634" />
     <state x="2981" y="318" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591657134108">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>

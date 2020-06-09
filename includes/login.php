@@ -28,18 +28,33 @@ if (isset($_POST['login'])){
      }
 
     //decrypt password for auth
-    $password = crypt($password, $db_user_password);
+    //$password = crypt($password, $db_user_password);
 
-    if($username === $db_username && $password === $db_user_password){   //username and password are correct
+//      OLD but working method     
+//    if($username === $db_username && $password === $db_user_password){   //username and password are correct
+//        $_SESSION['username'] = $db_username;
+//        $_SESSION['firstname'] = $db_user_firstname;
+//        $_SESSION['lastname'] = $db_user_lastname;
+//        $_SESSION['user_role'] = $db_user_role;
+//
+//        header("Location: ../admin");
+//    } else {
+//        header("Location: ../index.php");
+//    }
+
+    if (password_verify($password, $db_user_password)){
+
         $_SESSION['username'] = $db_username;
         $_SESSION['firstname'] = $db_user_firstname;
         $_SESSION['lastname'] = $db_user_lastname;
         $_SESSION['user_role'] = $db_user_role;
 
         header("Location: ../admin");
-    } else {
+
+    }else{
         header("Location: ../index.php");
     }
-
+    
+    
 }
 
