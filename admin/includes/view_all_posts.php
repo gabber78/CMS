@@ -142,7 +142,27 @@ if (isset($_POST['checkBoxArray'])){
         echo "<td>$post_status</td>";
         echo "<td><img class='img-thumbnail' width=200 src='../images/$post_image' alt='post images'></td>";
         echo "<td>$post_tag</td>";
-        echo "<td>$post_comment_count</td>";
+
+
+        $query = "SELECT * FROM comments WHERE comment_post_id = $post_id";
+        $send_comment_query = mysqli_query($connection, $query);
+
+        $row = mysqli_fetch_array($send_comment_query);
+        // gives notice error as it is
+        //$comment_id = $row['comment_id'];
+
+        //workaround for the notice error:
+        if (!isset($row['comment_id'])){
+            $row['comment_id'] = NULL;
+        }else{
+            $comment_id = $row['comment_id'];
+        }
+
+        $count_comments = mysqli_num_rows($send_comment_query);
+
+        echo "<td><a href='post_comments.php?id=$post_id' title='View Comments'>$count_comments</a></td>";
+
+
         echo "<td>$post_date</td>";
         //reset view count
         echo "<td><a href='posts.php?reset={$post_id}' title='Reset View Count'> $post_views_count</a></td>";

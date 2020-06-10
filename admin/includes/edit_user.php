@@ -15,7 +15,7 @@ if (isset($_GET['edit_user'])) {
         $user_image = $row['user_image'];
         $user_role = $row['user_role'];
     }
-}
+
 
 if (isset($_POST['edit_user'])) {
 
@@ -30,7 +30,6 @@ if (isset($_POST['edit_user'])) {
     if (!empty($user_password)){
         $query_password = "SELECT user_password FROM cms.users WHERE user_id = $the_user_id";
         $get_user_query = mysqli_query($connection, $query_password);
-
         confirmQuery($get_user_query);
 
         $row = mysqli_fetch_array($get_user_query);
@@ -56,7 +55,11 @@ if (isset($_POST['edit_user'])) {
     confirmQuery($edit_user_query);
 
     echo "User Updated" . " <a href='users.php'>View Users?</a>";
-    }
+        }
+
+    } else {
+        header("Location: index.php");
+}
 ?>
 
 
@@ -104,7 +107,7 @@ if (isset($_POST['edit_user'])) {
 
     <div class="form-group">
         <label for="post_content">Password</label>
-        <input type="password" value="<?= $user_password ?>" class="form-control" name="user_password">
+        <input autocomplete="off" type="password" class="form-control" name="user_password">
     </div>
 
     <div>

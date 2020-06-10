@@ -5,11 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin/post_comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/add_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_user.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration.php" beforeDir="false" afterPath="$PROJECT_DIR$/registration.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,14 +87,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/includes" />
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\css" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\images" />
@@ -201,10 +205,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="3019" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591661063853" />
-    <state x="2896" y="405" width="642" height="564" key="find.popup" timestamp="1591662169634">
+    <state x="2896" y="405" width="642" height="564" key="find.popup" timestamp="1591741068588">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2896" y="405" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591662169634" />
+    <state x="2896" y="405" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591741068588" />
     <state x="2981" y="318" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591657134108">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
