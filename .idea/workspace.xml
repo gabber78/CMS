@@ -5,12 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e209f5fb-20d3-44be-8efd-19dc6d01e071" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/admin/post_comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/includes/edit_user.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_user.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/add_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/add_post.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/includes/edit_post.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/edit_post.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/admin/includes/view_all_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/includes/view_all_posts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/admin/profile.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/profile.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/admin/post_comments.php" beforeDir="false" afterPath="$PROJECT_DIR$/admin/post_comments.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/author_posts.php" beforeDir="false" afterPath="$PROJECT_DIR$/author_posts.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/post.php" beforeDir="false" afterPath="$PROJECT_DIR$/post.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,6 +38,10 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
@@ -55,7 +60,7 @@
         <item name="cms@localhost" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="cms: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-        <item name="users: table" type="dbc44a63:MariaImplModel$Table" />
+        <item name="posts: table" type="dbc44a63:MariaImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -63,7 +68,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="develop_cms_old_login_system" />
+        <entry key="$PROJECT_DIR$" value="development" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -91,16 +96,16 @@
     <property name="settings.editor.selected.configurable" value="SQL Dialects" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
-      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\includes" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\css" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin\images" />
       <recent name="C:\Users\gabor\Desktop\work-project\CMS\includes" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS\admin" />
+      <recent name="C:\Users\gabor\Desktop\work-project\CMS" />
     </key>
   </component>
   <component name="ServiceViewManager">
@@ -205,10 +210,10 @@
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
     <state x="3019" y="599" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591661063853" />
-    <state x="2896" y="405" width="642" height="564" key="find.popup" timestamp="1591741068588">
+    <state x="2896" y="405" width="642" height="564" key="find.popup" timestamp="1591831538424">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
-    <state x="2896" y="405" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591741068588" />
+    <state x="2896" y="405" width="642" height="564" key="find.popup/0.0.1280.690/2560.162.2560.1050@2560.162.2560.1050" timestamp="1591831538424" />
     <state x="2981" y="318" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591657134108">
       <screen x="2560" y="162" width="2560" height="1050" />
     </state>
