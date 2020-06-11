@@ -28,14 +28,14 @@ if (isset($_POST['checkBoxArray'])){
                 $select_post_query = mysqli_query($connection, $query);
 
                 while ($row = mysqli_fetch_array($select_post_query)) {
-                    $post_title = $row['post_title'];
-                    $post_category_id = $row['post_category_id'];
-                    $post_date = $row['post_date'];
-                    $post_author = $row['post_author'];
-                    $post_status = $row['post_status'];
-                    $post_image = $row['post_image'];
-                    $post_tag = $row['post_tag'];
-                    $post_content = $row['post_content'];
+                    $post_title = escape($row['post_title']);
+                    $post_category_id = escape($row['post_category_id']);
+                    $post_date = escape($row['post_date']);
+                    $post_author = escape($row['post_author']);
+                    $post_status = escape($row['post_status']);
+                    $post_image = escape($row['post_image']);
+                    $post_tag = escape($row['post_tag']);
+                    $post_content = escape($row['post_content']);
                 }
 
                 $query = "INSERT INTO posts(post_category_id, post_title, post_author, post_date, post_image, post_content, post_tag, post_status) 
@@ -199,7 +199,7 @@ if (isset($_POST['checkBoxArray'])){
 
     //reset view count
     if (isset($_GET['reset'])){
-        $the_post_id = $_GET['reset'];
+        $the_post_id = escape($_GET['reset']);
         $query = "UPDATE posts SET post_views_count = 0 WHERE post_id =" . mysqli_real_escape_string($connection, $_GET['reset']);
         $reset_query = mysqli_query($connection, $query);
         header("Location: posts.php");
