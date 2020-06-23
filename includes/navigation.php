@@ -43,6 +43,10 @@
                     <a href="../registration.php">Registration</a>
                 </li>
 
+                <li>
+                    <a href="../contact.php">Contact</a>
+                </li>
+
                 <?php
                 if (session_status() == PHP_SESSION_NONE) session_start(); //check if session started or you can add session_start to admin/header.php
                     if (isset($_SESSION['user_role'])) {
